@@ -7,9 +7,7 @@
 //   reverse('Greetings!') === '!sgniteerG'
 
 function reverse(str) {
-  let string = str.split("");
-  string.reverse();
-  return string.join(""); 
+  return str.split("").reverse().join(""); 
 }
 
 module.exports = reverse;
