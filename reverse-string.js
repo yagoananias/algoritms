@@ -10,7 +10,7 @@ function reverse(str) {
   return str.split("").reverse().join(""); 
 }
 
-//second solution
+//second solution without .reverse class
 
 function reverse(str) {
   let reversed = "";
