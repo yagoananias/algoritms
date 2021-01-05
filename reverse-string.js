@@ -8,10 +8,8 @@
 
 function reverse(str) {
   let string = str.split("");
-  let revString = string.reverse();
-  let joinString = revString.join("");
-  
-  return joinString;
+  string.reverse();
+  return string.join(""); 
 }
 
 module.exports = reverse;
