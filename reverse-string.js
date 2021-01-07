@@ -15,6 +15,7 @@ function reverse(str) {
 function reverse(str) {
   let reversed = "";
   
+  //desmember the str param in characters and add it to a empty string one by one
   for (let character of str) {
     reversed = character + reversed;
   }
