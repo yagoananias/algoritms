@@ -1,0 +1,13 @@
+O(n):
+
+for i => 2, n-1
+  if(n % i == 0)
+    return false;
+  return true;
+
+O(sqrt(n)):
+
+for i => 2, sqrt(n)
+  if(n % i == 0)
+    return false;
+  return true;
