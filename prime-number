@@ -32,3 +32,5 @@ int main(int argc, char** argv) {
 	cout << isPrime(7);
 	return 0;
 }
+
+//Prime number factoring
