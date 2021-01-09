@@ -1,0 +1,18 @@
+int f[100], expo[100], len;
+
+void primeFactor(int n) {
+  if(n == 0) {
+    len++;
+    f[len] = 2;
+    expo[len] = 0;
+    return;
+  }
+  int d = 2;
+  while (1LL * d * d <= n && n > 1 {
+      int k = 0;
+      while (n % d == 0) {
+        k++;
+        n /= d;
+      }
+      if (k > 0) {
+          len++;
