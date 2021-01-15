@@ -1,4 +1,4 @@
-f is a array that holds the prime factors, expo holds the exponents
+f is a array that holds the prime factors, the variable expo holds the exponents
 
 int f[100], expo[100], len;
 
