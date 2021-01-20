@@ -5,7 +5,7 @@
 //   reverse('apple') === 'leppa'
 //   reverse('hello') === 'olleh'
 //   reverse('Greetings!') === '!sgniteerG'
-
+In a sigle line 
 function reverse(str) {
   return str.split("").reverse().join(""); 
 }
