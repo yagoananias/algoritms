@@ -16,4 +16,5 @@ function LongestWord(sen) {
 }
    
 // keep this function call here 
+// lê a linha
 console.log(LongestWord(readline()));
