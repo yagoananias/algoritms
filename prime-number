@@ -1,4 +1,4 @@
-O(n):
+Complexity => O(n):
 
 for i => 2, n-1
   if(n % i == 0)
