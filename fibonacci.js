@@ -1,4 +1,4 @@
-Implements Fibonacci sequence 
+Implements Fibonacci sequence in Javascript 
 var fibonacci = []
 fibonacci[0] = 0
 fibonacci[1] = 1
