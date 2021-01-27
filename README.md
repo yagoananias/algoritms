@@ -1,2 +1,1 @@
-# maratona
-Estudos para a maratona de programação 
+# algorithms and data structures studies 
