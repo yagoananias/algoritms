@@ -1,1 +1,1 @@
-# algorithms and data structures studies 
+# algorithms and data structures studies for computer science 
