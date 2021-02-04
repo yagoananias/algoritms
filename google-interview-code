@@ -9,3 +9,12 @@ bool HasPairWithSum(const vector<int>&data, int sum) {
 
 //
 
+bool HasPairWithSum (c vector<int>) data, int sum) {
+  unordered_set<int> comp; // complements
+  for(int value : data) {
+    if(comp.find(value)! = comp.end)
+      return true;
+    comp.add(sum-value);
+    }
+    return false;
+  }
