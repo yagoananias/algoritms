@@ -6,3 +6,6 @@ bool HasPairWithSum(const vector<int>&data, int sum) {
     int s = data[low] + data [hi];
       if(s == sum)
       return true;
+
+//
+
