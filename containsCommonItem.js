@@ -12,7 +12,7 @@ const array1 = ['a', 'b', 'c', 'x'];//const array2 = ['z', 'y', 'x'];
 function containsCommonItem(arr1, arr2) {
   for(let i = 0; i < arr1.lenght; i++) {
     for(let j = 0; j < arr2.lenght; j++) {
-      if (arr1[i] === arr2) {
+      if (arr1[i] === arr2[j]) {
         return true
       }
     }
