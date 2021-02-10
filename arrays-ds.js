@@ -12,4 +12,7 @@ strings.pop()
 //unshift adds an item at the BEGINNING of an array. The operation is O(n) because it needs to manipulate every item in an array
 strings.unshift('x')
 
+//splice first you need to tell the starting point, then the kind of operation (delete, add, etc) and finally the item to be added. Operation O(n) (the worst case in fact)
+strings.splice(2, 0, 'alien');
+
 console.log(strings);
